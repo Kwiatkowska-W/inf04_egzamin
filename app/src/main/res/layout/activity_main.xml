@@ -65,6 +65,7 @@
         android:layout_height="40dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -110,5 +111,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/haslo2"
         app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="186dp"
+        android:layout_height="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.156" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
